@@ -131,13 +131,13 @@ const Nav = () => {
             <Page active={pathname === '/where' ? 1 : 0} to="/where">
               where I've done it
             </Page>
-            <Page active={pathname === '/how' ? 1 : 0} to="/how">
+            {/* <Page active={pathname === '/how' ? 1 : 0} to="/how">
               how I do it
             </Page>
             <Page active={pathname === '/etc' ? 1 : 0} to="/etc">
               more + contact
             </Page>
-          </div>
+          </div> */}
 
           <Icons>
             <a href="https://twitter.com/falcuccis">
