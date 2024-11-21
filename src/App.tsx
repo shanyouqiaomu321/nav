@@ -87,8 +87,8 @@ function App() {
               <Switch>
                 <Route exact path="/" component={What} />
                 <Route exact path="/where" component={Where} />
-                <Route exact path="/how" component={How} />
-                <Route exact path="/etc" component={Etc} />
+                
+                
                 <Route exact path="/presence" component={Presence} />
                 <Route exact path="/sakuraji.ma" component={Sakurajima} />
               </Switch>
